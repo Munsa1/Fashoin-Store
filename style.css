@@ -26,3 +26,22 @@
   border-radius: 5px;
   border: 1px solid #555ca853;
 }
+
+.best-seller-section-container {
+  width: 100%;
+  background-color: rgb(255, 253, 253);
+}
+
+.best-seller-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 23px;
+  color: #1c2f44e7;
+}
+
+.see-wrapper {
+  display: flex;
+  align-items: center;
+  color: #1358a1e7;
+
+}
