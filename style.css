@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
 * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -16,6 +19,7 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
+  margin: 20px;
 }
 
 .categories li {
@@ -35,13 +39,38 @@
 .best-seller-section {
   display: flex;
   justify-content: space-between;
-  margin: 0 23px;
-  color: #1c2f44e7;
+  margin: 19px;
+  color: rgb(56 101 151 / 91%);
 }
 
 .see-wrapper {
   display: flex;
   align-items: center;
   color: #1358a1e7;
+}
 
+.card-holder {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rate {
+  font-size: 14px;
+}
+
+.card-header {
+  text-align: center;
+}
+
+.project-img {
+  height: 150px;
+  width: 90px;
+  border-radius: 8px;
 }
