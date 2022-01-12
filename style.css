@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  margin-top: 26px;
+}
+
+.categories {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categories li {
+  margin-top: 4px;
+  padding: 5px 6px;
+  color: #dedbf4;
+  background-color: #1358a1e7;
+  border-radius: 5px;
+  border: 1px solid #555ca853;
+}
