@@ -78,7 +78,7 @@
 }
 
 .project-img {
-  height: 150px;
+  height: 110px;
   width: 90px;
   border-radius: 8px;
 }
@@ -90,4 +90,12 @@
 
 .price {
   color: rgb(255, 11, 11);
+}
+
+.trending-card-container {
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  gap: 12px;
+  flex-wrap: wrap;
 }
