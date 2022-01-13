@@ -8,6 +8,7 @@
   list-style: none;
   color: #1358a1e7;
 }
+
 body, html {
   /* background-color:#dedbf4; */
   /* background-image: url('img/tropical-product-background.jpg'); */
@@ -15,6 +16,7 @@ body, html {
   background-size: cover;
   background-position: 100% 20%;
 }
+
 .navbar {
   display: flex;
   justify-content: space-between;
