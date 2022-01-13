@@ -72,6 +72,9 @@
   font-size: 13px;
 }
 
+.checked {
+  color: orange;
+}
 .card-header {
   margin-top: 12px;
   font-size: 14px;
