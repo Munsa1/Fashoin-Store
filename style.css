@@ -123,3 +123,7 @@ body, html {
   margin-bottom: 15px;
   font-size: 24px;
 }
+
+@media (min-width: 920px){
+
+}
